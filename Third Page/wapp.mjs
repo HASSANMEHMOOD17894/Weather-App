@@ -175,7 +175,7 @@ function getDayName(dateString) {
 }
 
 function getAQIData(lat, lon, API_key) {
-    axios.get(`http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=${API_key}
+    axios.get(`https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=${API_key}
     `).then(function (response) {
         console.log("g", response.data);
         getAQI(response);
