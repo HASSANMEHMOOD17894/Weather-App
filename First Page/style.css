@@ -1,0 +1,174 @@
+*{
+    box-sizing:border-box ;
+    margin: 0px;
+    padding: 0px;
+}
+html , body{
+    margin: 0px;
+    height: 100%;
+    overflow:hidden ;
+}
+ 
+form {
+    display: flex;
+    justify-content: center;
+
+    /* padding: 20px; */
+    margin: 18px 0px 0px 0px;
+
+
+}
+
+.card {
+    background: rgb(35, 42, 84);
+    height: 591.334px;
+
+    background: linear-gradient(180deg, rgba(35, 42, 84, 1) 0%, rgba(76, 61, 151, 1) 35%, rgba(121, 70, 164, 1) 100%, rgba(144, 66, 168, 255)100%);
+
+}
+
+.body2nd {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+#page2nd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+#page2nd>img {
+    padding-top: 0px;
+}
+
+#card {
+    border-radius: 30px;
+}
+
+.card>img {
+    padding-top: 30px;
+}
+
+.card-body>button {
+
+    border-radius: 30px;
+}
+
+.card>.card-body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+}
+
+.btn {
+    justify-content: center;
+
+}
+
+#city {
+    border-radius: 10px;
+}
+
+#response {
+    color: white;
+    font-size: inherit;
+    font-weight: 100px;
+    padding: 0px;
+}
+
+#description {
+    color: white;
+    font-size: 20px;
+    font-weight: 100px;
+    padding: 0px;
+}
+
+.maxmin {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.house>img {
+    width: 200px;
+    height: 120px;
+
+}
+
+#day {
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    border-radius: 15px;
+
+    background: linear-gradient(200deg, rgba(35, 42, 84, 1) 0%, rgba(76, 61, 151, 1) 35%, rgba(121, 70, 164, 1) 100%, rgba(144, 66, 168, 255)100%);
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    column-gap: 90px;
+
+    width: 287px;
+
+}
+
+.today {
+    margin-left: 50px;
+}
+
+.monthday {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#month {
+    justify-content: flex-end;
+}
+
+.hr {
+    flex-direction: column;
+    color: white;
+}
+
+.cast {
+    display: flex;
+    flex-direction: row;
+}
+
+.forecast1 .forecast2 .forecast3 {
+    width: 57px;
+    height: 113px;
+    padding: 2px;
+
+}
+
+.fc1 .fc4 .fc7 {
+    width: 57px;
+    height: 23px;
+}
+
+.fc2>img .fc5>img .fc8>img {
+    width: 66px;
+    height: 66px;
+}
+
+.fc3 .fc6 .fc9 {
+    width: 57px;
+    height: 23px;
+}
