@@ -128,15 +128,15 @@ function displayWeatherData() {
             document.querySelector(".fc15").textContent = ` ${getDayName((response.data.list[25].dt_txt.split(" ")[0]))}`;
 
             document.querySelector(".fc2").innerHTML =
-                `<img src="http://openweathermap.org/img/wn/${response.data.list[0].weather[0].icon}@2x.png" alt="Weather Icon">`;
+                `<img src="https://openweathermap.org/img/wn/${response.data.list[0].weather[0].icon}@2x.png" alt="Weather Icon">`;
             document.querySelector(".fc5").innerHTML =
-                `<img src="http://openweathermap.org/img/wn/${response.data.list[5].weather[0].icon}@2x.png" alt="Weather Icon">`;
+                `<img src="https://openweathermap.org/img/wn/${response.data.list[5].weather[0].icon}@2x.png" alt="Weather Icon">`;
             document.querySelector(".fc8").innerHTML =
-                `<img src="http://openweathermap.org/img/wn/${response.data.list[13].weather[0].icon}@2x.png" alt="Weather Icon">`;
+                `<img src="https://openweathermap.org/img/wn/${response.data.list[13].weather[0].icon}@2x.png" alt="Weather Icon">`;
             document.querySelector(".fc11").innerHTML =
-                `<img src="http://openweathermap.org/img/wn/${response.data.list[17].weather[0].icon}@2x.png" alt="Weather Icon">`;
+                `<img src="https://openweathermap.org/img/wn/${response.data.list[17].weather[0].icon}@2x.png" alt="Weather Icon">`;
             document.querySelector(".fc14").innerHTML =
-                `<img src="http://openweathermap.org/img/wn/${response.data.list[25].weather[0].icon}@2x.png" alt="Weather Icon">`;
+                `<img src="https://openweathermap.org/img/wn/${response.data.list[25].weather[0].icon}@2x.png" alt="Weather Icon">`;
         })
         .catch(function (error) {
             console.log(error);
